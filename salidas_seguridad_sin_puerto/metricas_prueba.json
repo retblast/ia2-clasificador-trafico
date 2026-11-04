@@ -1,0 +1,21 @@
+{
+  "modelo_seleccionado_por_f1_macro_validacion": "RandomForest",
+  "registros_totales": 40000,
+  "registros_entrenamiento": 28277,
+  "registros_validacion": 5766,
+  "registros_prueba": 5957,
+  "numero_caracteristicas": 68,
+  "numero_clases": 2,
+  "clases": [
+    "Attack",
+    "Benign"
+  ],
+  "accuracy_prueba": 0.9818700688265906,
+  "precision_macro_prueba": 0.9835307659182101,
+  "recall_macro_prueba": 0.9801523954115521,
+  "f1_macro_prueba": 0.9816184210075188,
+  "tiempo_prediccion_prueba_segundos": 0.09382208000170067,
+  "tiempo_prediccion_prueba_ms_por_flujo": 0.015749887527564323,
+  "semilla": 42,
+  "particion": "por grupos"
+}

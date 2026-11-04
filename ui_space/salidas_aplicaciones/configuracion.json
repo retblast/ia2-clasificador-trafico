@@ -1,0 +1,47 @@
+{
+  "modelos_comparados": [
+    "RegresionLogistica",
+    "RandomForest",
+    "GradientBoosting",
+    "MLP_128_64"
+  ],
+  "mlp": {
+    "capas_ocultas": [
+      128,
+      64
+    ],
+    "activacion_oculta": "ReLU",
+    "optimizador": "Adam",
+    "tasa_aprendizaje": 0.001,
+    "regularizacion_l2_alpha": 0.0001,
+    "max_iteraciones": 200,
+    "early_stopping": true,
+    "validacion_interna": 0.15
+  },
+  "caracteristicas_utilizadas": [
+    "duration",
+    "min_fiat",
+    "min_biat",
+    "max_fiat",
+    "max_biat",
+    "mean_fiat",
+    "mean_biat",
+    "std_fiat",
+    "std_biat",
+    "flowPktsPerSecond",
+    "flowBytesPerSecond",
+    "min_flowiat",
+    "max_flowiat",
+    "mean_flowiat",
+    "std_flowiat",
+    "min_active",
+    "mean_active",
+    "max_active",
+    "std_active",
+    "min_idle",
+    "mean_idle",
+    "max_idle",
+    "std_idle"
+  ],
+  "columnas_excluidas": []
+}

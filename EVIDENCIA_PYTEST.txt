@@ -1,0 +1,6 @@
+Comando: python -m pytest -q --disable-warnings
+
+[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[33m                                                            [100%][0m
+[33m[32m13 passed[0m, [33m[1m30 warnings[0m[33m in 2.91s[0m[0m
+
+Nota: los 30 avisos corresponden a InconsistentVersionWarning, ya que el entorno disponible usa scikit-learn 1.8.0 y los modelos fueron serializados con scikit-learn 1.9.0. requirements.txt fija la versión 1.9.0 para el despliegue.

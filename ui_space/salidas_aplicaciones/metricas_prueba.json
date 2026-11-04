@@ -1,0 +1,26 @@
+{
+  "modelo_seleccionado_por_f1_macro_validacion": "GradientBoosting",
+  "registros_totales": 14698,
+  "registros_entrenamiento": 9553,
+  "registros_validacion": 2205,
+  "registros_prueba": 2940,
+  "numero_caracteristicas": 23,
+  "numero_clases": 7,
+  "clases": [
+    "Browsing",
+    "Chat",
+    "FileTransfer",
+    "Mail",
+    "P2P",
+    "Streaming",
+    "VoIP"
+  ],
+  "accuracy_prueba": 0.8993197278911564,
+  "precision_macro_prueba": 0.87645264013803,
+  "recall_macro_prueba": 0.8527300889941757,
+  "f1_macro_prueba": 0.8624028292341722,
+  "tiempo_prediccion_prueba_segundos": 0.06820711004547775,
+  "tiempo_prediccion_prueba_ms_por_flujo": 0.02319969729438019,
+  "semilla": 42,
+  "particion": "estratificada aleatoria"
+}
